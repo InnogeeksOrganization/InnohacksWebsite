@@ -710,3 +710,18 @@ a[href^="https://maps.google.com/maps"] {
     background: none !important;
 }
 /*End misc */
+
+
+
+table.event_Timeline{
+    /* border-collapse: collapse; */
+	border: 1px; 
+    margin: auto;
+}
+
+table.event_Timeline th, table.event_Timeline td {
+	padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+}
+
