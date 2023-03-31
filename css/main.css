@@ -794,7 +794,7 @@ select.error {
     flex-direction: column;
 }
 .block-sponsor img {
-    opacity: .18;
+    opacity: 1;
     width: 85%;
 }
 .block-sponsor span{
