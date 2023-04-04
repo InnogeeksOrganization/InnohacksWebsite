@@ -43,7 +43,7 @@
     z-index: 9999;
 }
 .loader-inner {
-    left: 0;
+    left: 50%;
     position: absolute;
     top: 50%;
     width: 100%;
