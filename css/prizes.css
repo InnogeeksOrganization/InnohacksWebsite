@@ -1,10 +1,10 @@
 #row_prize_1{display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
 
 }
 #row_prize_2{display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;}
 
 .container_prize {
@@ -16,22 +16,12 @@
         .container_prize{
             flex-direction: column;
         }
-        #row_prize_1{
-            flex-direction: column;
-        }
         #row_prize_2{
             flex-direction: column;
         }
-}
-#prize_content{
-    margin-top: 6em;
-    margin-left: 3em;
-    font-size: x-large;
-}
-#prize_content_1{
-    margin-top: 7em;
-    margin-left: 2em;
-    /* font-size: x-large; */
+        #row_prize_1{
+            flex-direction: column;
+        }
 }
 .card_box {
   width: 20em;
