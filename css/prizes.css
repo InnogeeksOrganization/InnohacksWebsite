@@ -1,10 +1,14 @@
 #row_prize_1{display: flex;
     justify-content: space-evenly;
+   
+    padding:2vh 2vh 2vh 2vh;
     flex-direction: row;
 
 }
 #row_prize_2{display: flex;
     justify-content: space-evenly;
+    padding:2vh 2vh 2vh 2vh;
+
     flex-direction: row;}
 
 .container_prize {
@@ -22,6 +26,22 @@
         #row_prize_1{
             flex-direction: column;
         }
+}
+#prize_content_1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  margin-top: 7em;
+  margin-left: 3em;
+}
+#prize_content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 6em;
+  margin-left: 3em;
+  font-size: x-large;
 }
 .card_box {
   width: 20em;
@@ -163,7 +183,11 @@
     align-items: center;
     justify-content: center;
   }
-  
+  .col_faq{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .card_box_2 span::before {
     content: '₹25000';
     position: absolute;
@@ -182,7 +206,7 @@
   }
   
   .card_box_2 span::after {
-    content: '₹25000';
+    content: '';
     position: absolute;
     width: 10px;
     bottom: 0;
