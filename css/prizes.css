@@ -382,7 +382,7 @@
     height: 10px;
     z-index: -1;
     box-shadow: 140px -140px #cc3f47;
-    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    background-image: linear-gradient(45deg, #03001e  0%, #7303c0  51%, #ec38bc  100%);;
   }
   .card_box_6 {
     width: 200px;
