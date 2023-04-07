@@ -1,6 +1,6 @@
 #row_prize_1{display: flex;
     justify-content: space-evenly;
-   
+   margin-top: 3em;
     padding:2vh 2vh 2vh 2vh;
     flex-direction: row;
 
@@ -8,7 +8,7 @@
 #row_prize_2{display: flex;
     justify-content: space-evenly;
     padding:2vh 2vh 2vh 2vh;
-
+    margin-top: 3em;
     flex-direction: row;}
 
 .container_prize {
