@@ -1,52 +1,129 @@
-.card {
+.Cardcontainer {
+  width: 190px;
+  height: 254px;
+  background: transparent;
   position: relative;
-  width: 220px;
-  height: 320px;
-  background: mediumturquoise;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-  font-weight: bold;
-  border-radius: 15px;
-  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.card::before,
-.card::after {
-  position: absolute;
-  content: "";
-  width: 20%;
-  height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-  font-weight: bold;
-  background-color: lightblue;
-  transition: all 0.5s;
-}
-
-.card::before {
-  top: 0;
-  right: 0;
-  border-radius: 0 15px 0 100%;
-}
-
-.card::after {
-  bottom: 0;
-  left: 0;
-  border-radius: 0 100%  0 15px;
-}
-
-.card:hover::before,
-.card:hover:after {
+.card {
+  cursor: default;
   width: 100%;
   height: 100%;
-  border-radius: 15px;
-  transition: all 0.5s;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: 2px;
+  color: #212121;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  transition: all ease .3s;
+  color: rgb(221, 206, 206)
 }
 
-.card:hover:after {
-  content: "HELLO";
+.Cardcontainer::after,
+.Cardcontainer::before {
+  width: 100px;
+  height: 100px;
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  transition: .5s linear;
+}
+
+.Cardcontainer::after {
+  top: -20px;
+  left: -20px;
+  background-color: rgba(66, 147, 214, 0.603);
+  animation: animFirst 5s linear infinite;
+}
+
+.Cardcontainer::before {
+  background-color: rgb(39, 202, 202);
+  top: 70%;
+  left: 70%;
+  animation: animSecond 5s linear infinite;
+  animation-delay: 3s;
+}
+
+.Cardcontainer:hover {
+  box-shadow: 0px 0px 10px rgba(0, 77, 32, 0.432)
+}
+
+.Cardcontainer:hover::after {
+  left: 80px;
+  transform: scale(1.2);
+}
+
+.Cardcontainer:hover::before {
+  left: -10px;
+  transform: scale(1.2);
+}
+
+.Eventcard {
+  width: 17em;
+  height: 22.5em;
+  background: #171717;
+  transition: 1s ease-in-out;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  border: #ffffff solid
+}
+
+.Eventcard span {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+
+.Eventcard .Eventinfo {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+  margin: 1em;
+}
+
+.Eventcard .Eventimg {
+  width: 4.8em;
+  height: 4.8em;
+  background: white;
+  border-radius: 15px;
+  margin-top: 20%;
+  margin-left: 35%;
+  margin-bottom: 20%;
+  padding-top: 7%;
+}
+
+.Eventcard button {
+  padding: 0.8em 1.7em;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: .4s ease-in-out;
+}
+
+.Eventcard button:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
 }
