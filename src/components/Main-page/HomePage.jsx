@@ -11,30 +11,33 @@ import { Accordion } from "../FAQ/faq.jsx";
 // import {theme} from "../themes_test/theme.jsx";
 // import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 import { Sponsor, SponsorsHead } from "../Sponsors/sponsors.jsx";
-import Birds from "../Birds/birds.jsx";
+// import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
 import { Member } from "../team/team.jsx";
-import koii from "../../Module/Assets/sponsorsLogos/koii.png";
+// import koii from "../../Module/Assets/sponsorsLogos/koii.png";
 import pattern from "./pattern4.png";
-import Media from "../media/media.jsx";
+// import Media from "../media/media.jsx";
 import ThemeType from "../Themes/theme.jsx";
 import TimeLine from "../Timeline/Timeline.jsx";
-import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
-import polygon from "../../Module/Assets/sponsorsLogos/polygon.png";
-import alan from "../../Module/Assets/sponsorsLogos/alan.png";
+// import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
+// import sphere from "https://www.medianews4u.com/wp-content/uploads/2022/04/5ire.jpg";
+// import alan from "../../Module/Assets/sponsorsLogos/alan.png";
 
 import {
   TOP_SECTION,
   TeamInfo,
   // JudgesInfo,
-  sponsorLogos,
+  // sponsorLogos,
   frequentlyAskedQuestions,
-  designlogo,
+  // designlogo,
   titlesponsorLogos,
-  bronzeponsorLogos,
+  // bronzeponsorLogos,
   silversponsorLogos,
   goldsponsorLogos,
-  FoodLogos
+  educationsponsorLogos,
+  certificatesponsorLogos,
+  platniumsponsorLogos,
+  // FoodLogos
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -203,8 +206,8 @@ export default function HomePage(props) {
               alt=""
             /> */}
             <h4>
-              <b>Prize</b>: Seed funding of ₹ 10,00,000 <br />
-              {/* Swags & Promo Codes */}
+              <b>Prize</b>: Seed funding of <br />₹ 10,00,000 <br />
+              {/* Swags, Goodies & Promo Codes */}
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -219,7 +222,7 @@ export default function HomePage(props) {
             />
             <h4>
               <b>Prize</b>: ₹ 50,000 <br />
-              Swags & Promo Codes
+              Swags, Goodies & Promo Codes
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -235,7 +238,7 @@ export default function HomePage(props) {
             />
             <h4>
               <b>Prize</b>: ₹ 25,000 <br />
-              Swags & Promo Codes
+              Swags, Goodies & Promo Codes
               <br />
               <br />
             </h4>
@@ -250,7 +253,7 @@ export default function HomePage(props) {
             />
             <h4>
               <b>Prize</b>: ₹ 15,000 <br />
-              Swags & Promo Codes
+              Swags, Goodies & Promo Codes
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -273,8 +276,8 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: ₹ 5,000 <br />
-              Swags & Promo Codes
+              <b>Prize</b>:<br /> ₹ 5,000 <br />
+              Swags, Goodies & Promo Codes
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -289,8 +292,8 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: ₹ 5,000 <br />
-              Swags & Promo Codes
+              <b>Prize</b>:<br /> ₹ 5,000 <br />
+              Swags, Goodies & Promo Codes
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -304,8 +307,8 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: ₹ 5,000 <br />
-              Swags & Promo Codes
+              <b>Prize</b>:<br /> ₹ 5,000 <br />
+              Swags, Goodies & Promo Codes
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -319,8 +322,8 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: ₹ 5,000 <br />
-              Swags & Promo Codes
+              <b>Prize</b>:<br /> ₹ 5,000 <br />
+              Swags, Goodies & Promo Codes
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -334,8 +337,8 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: ₹ 5,000 <br />
-              Swags & Promo Codes
+              <b>Prize</b>:<br /> ₹ 5,000 <br />
+              Swags, Goodies & Promo Codes
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -352,7 +355,7 @@ export default function HomePage(props) {
             <h4>
               <b>Participation Certificate</b>
               <br />
-              Promo Codes
+              Web Development Course, Promo Codes
               <br />
               <br />
               {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
@@ -366,30 +369,36 @@ export default function HomePage(props) {
               <div class="boxtrack">
                 <div class="contenttrack">
                   {/*<h1>Polygon</h1>*/}
-                  <img className="imgtrack" src={polygon} />
+                  <img
+                    className="imgtrack"
+                    src="https://www.medianews4u.com/wp-content/uploads/2022/04/5ire.jpg"
+                  />
                   <br />
                   <br />
                   <b>
                     <lu>
-                      <li>₹10,000 for the best hack built on Ethereum,</li>
                       <li>
-                        or ₹15,000 for the best hack built on Ethereum +
-                        Polygon.
+                        5ire is a Platinum Sponsor of Innohacks 2.0 and is
+                        offering a product track for project building.
                       </li>
                       <li>
-                        Eligibility to apply for internship/full-time roles and
-                        seed funding of up to 5,000 USD for winners!
+                        Top 10 projects in the 5ire track will get a cash prize
+                        of 10,000 INR and a swag-kit.
+                      </li>
+                      <li>
+                        Participants who build on 5ire during the hackathon will
+                        receive a swag-kit.
                       </li>
                     </lu>
                   </b>
-                  <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">
+                  {/* <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">
                     Read More
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
 
-            <div class="cardtrack">
+            {/* <div class="cardtrack">
               <div class="boxtrack">
                 <div class="contenttrack">
                   <img className="imgtrack" src={koii} />
@@ -407,9 +416,9 @@ export default function HomePage(props) {
                         </li>
                       </lu>
                     </lu>
-                  </b>
-                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
-                </div>
+                  </b> */}
+            {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
+            {/* </div>
               </div>
             </div>
 
@@ -432,17 +441,17 @@ export default function HomePage(props) {
                         <li>Project should be live.</li>
                       </lu>
                     </lu>
-                  </b>
-                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
-                </div>
+                  </b> */}
+            {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
+            {/* </div>
               </div>
-            </div>
+            </div> */}
 
-            <div class="cardtrack">
+            {/* <div class="cardtrack">
               <div class="boxtrack">
                 <div class="contenttrack">
                   {/*<h1>Filecoin</h1>*/}
-                  <img className="imgtrack" src={filecoin} />
+            {/* <img className="imgtrack" src={filecoin} />
                   <br />
                   <br />
                   <b>
@@ -455,7 +464,7 @@ export default function HomePage(props) {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/*<div class="cardtrack">
               <div class="boxtrack">
@@ -493,6 +502,16 @@ export default function HomePage(props) {
           {titlesponsorLogos.map(SponsorGroup)}
           <br />
           <br />
+          <h1 className="">Education Partner</h1>
+          <br />
+          {educationsponsorLogos.map(SponsorGroup)}
+          <br />
+          <br />
+          <h1 className="">Certificate Partner</h1>
+          <br />
+          {certificatesponsorLogos.map(SponsorGroup)}
+          <br />
+          <br />
           <h1 className="">Gold Sponsors</h1>
           <br />
           {goldsponsorLogos.map(SponsorGroup)}
@@ -503,22 +522,22 @@ export default function HomePage(props) {
           {silversponsorLogos.map(SponsorGroup)}
           <br />
           <br />
-          <h1 className="">Bronze Sponsors</h1>
+          {/* <h1 className="">Bronze Sponsors</h1>
           <br />
           {bronzeponsorLogos.map(SponsorGroup)}
           <br />
-          <br />
+          <br /> */}
           {/* <SponsorUS /> */}
-          <br />
-          <br />
-          <h1 className="">Design & Media Partners</h1>
+          {/* <br />
+          <br /> */}
+          {/* <h1 className="">Design & Media Partners</h1>
           <br />
           {designlogo.map(SponsorGroup)}
           <br />
           <br />
           <h1 className="">Food Sponsors</h1>
           <br />
-          {FoodLogos.map(SponsorGroup)}
+          {FoodLogos.map(SponsorGroup)} */}
         </Row>
         {/* ********Sponsors ending here ***** */}
 
@@ -528,7 +547,7 @@ export default function HomePage(props) {
 
         {JudgesInfo.map(TeamMembers)} */}
 
-        <h1 id="teams">Our Team</h1>
+        {/* <h1 id="teams">Our Team</h1> */}
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
@@ -536,7 +555,7 @@ export default function HomePage(props) {
             content="Interested in joining our team"
           />
         )} */}
-        {TeamInfo.map(TeamMembers)}
+        {/* {TeamInfo.map(TeamMembers)} */}
         {/* ********Team ending here ***** */}
 
         {/* ********Team ending here ***** */}
@@ -549,14 +568,14 @@ export default function HomePage(props) {
         </div>
       </Container>
       <br />
-      <center>
+      {/* <center>
         <div
           class="apply-button"
           data-hackathon-slug="duhacks"
           data-button-theme="light"
           // style="height: 44px; width: 312px"
         ></div>
-      </center>
+      </center> */}
 
       <Footer />
       <div class="backtotop" id="back-to-up">

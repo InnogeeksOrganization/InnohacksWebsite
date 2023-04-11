@@ -1,43 +1,49 @@
 import team from "./Assets/team.gif";
-import digilogo from "./Assets/sponsorsLogos/digilogo.png";
-import devfolio from "./Assets/sponsorsLogos/devfolio.png";
-import filecoin from "./Assets/sponsorsLogos/filecoin.png";
-import polygon from "./Assets/sponsorsLogos/polygon.png";
-import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
-import alan from "./Assets/sponsorsLogos/alan.png";
-import koii from "./Assets/sponsorsLogos/koii.png";
-// import celo from "./Assets/sponsorsLogos/celo.png";
-import echo3d from "./Assets/sponsorsLogos/echo3d.png";
-import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
+// import digilogo from "./Assets/sponsorsLogos/digilogo.png";
+// import devfolio from "./Assets/sponsorsLogos/devfolio.png";
+// import filecoin from "./Assets/sponsorsLogos/filecoin.png";
+// import polygon from "./Assets/sponsorsLogos/polygon.png";
+// import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
+// import alan from "./Assets/sponsorsLogos/alan.png";
+// import koii from "./Assets/sponsorsLogos/koii.png";
+// // import celo from "./Assets/sponsorsLogos/celo.png";
+// import echo3d from "./Assets/sponsorsLogos/echo3d.png";
+// import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
+// import gfg from "./Assets/sponsorsLogos/gfg.png";
+// import certopus from "./Assets/sponsorsLogos/certopus.png";
+// import prayosys from "./Assets/sponsorsLogos/prayosys.png";
+// import shivalika from "./Assets/sponsorsLogos/shivalika.JPG";
+// import shivam from "./Assets/sponsorsLogos/shivam.JPG";
+// import jay_maharaj from "./Assets/sponsorsLogos/jay_maharaj.jpeg";
+// import jay_bhavani from "./Assets/sponsorsLogos/jay_bhavani.jpeg";
+// import maruti from "./Assets/sponsorsLogos/maruti.jpeg";
+// import replit from "./Assets/sponsorsLogos/replit.png";
+// import taskade from "./Assets/sponsorsLogos/taskade.png";
+// import digitalocean from './Assets/sponsorsLogos/do.png'
+// import cuvette from './Assets/sponsorsLogos/cuvette.png'
+// import postman from './Assets/sponsorsLogos/pm.svg'
+
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
-import gfg from "./Assets/sponsorsLogos/gfg.png";
-import certopus from "./Assets/sponsorsLogos/certopus.png";
-import prayosys from "./Assets/sponsorsLogos/prayosys.png";
-import shivalika from "./Assets/sponsorsLogos/shivalika.JPG";
-import shivam from "./Assets/sponsorsLogos/shivam.JPG";
-import jay_maharaj from "./Assets/sponsorsLogos/jay_maharaj.jpeg";
-import jay_bhavani from "./Assets/sponsorsLogos/jay_bhavani.jpeg";
-import maruti from "./Assets/sponsorsLogos/maruti.jpeg";
-import replit from "./Assets/sponsorsLogos/replit.png";
-import taskade from "./Assets/sponsorsLogos/taskade.png";
 import interviewbuddy from './Assets/sponsorsLogos/ib.png'
-import digitalocean from './Assets/sponsorsLogos/do.png'
-import cuvette from './Assets/sponsorsLogos/cuvette.png'
-import postman from './Assets/sponsorsLogos/pm.svg'
+import axure from "./Assets/sponsorsLogos/axure logo.png"
+import bilasmiq from "./Assets/sponsorsLogos/bilasmiq logo.png"
+import hdfc from "./Assets/sponsorsLogos/hdfc logo.png"
+import mysphere from "./Assets/sponsorsLogos/logo_mysphere logo.png"
+import xyz from "./Assets/sponsorsLogos/xyz logo.png"
 
-import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
-import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
+// import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
+// import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
 
-import me from "./Assets/teami/Vashishth_Patel.jpg";
-import dharmesh from "./Assets/teami/Dharmesh_Poriya.jpg";
-import Ryah from "./Assets/teami/Ryah.jpg";
-import nirali from "./Assets/teami/Nirali.jpeg";
-import smit from "./Assets/teami/smit.jpeg";
-import manav from "./Assets/teami/manav.jpg";
-// import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
-import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
-import ayush from "./Assets/teami/Ayush_Rudani.jpg";
-import aneri from "./Assets/teami/Aneri_Sonani.jpg";
+// import me from "./Assets/teami/Vashishth_Patel.jpg";
+// import dharmesh from "./Assets/teami/Dharmesh_Poriya.jpg";
+// import Ryah from "./Assets/teami/Ryah.jpg";
+// import nirali from "./Assets/teami/Nirali.jpeg";
+// import smit from "./Assets/teami/smit.jpeg";
+// import manav from "./Assets/teami/manav.jpg";
+// // import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
+// import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
+// import ayush from "./Assets/teami/Ayush_Rudani.jpg";
+// import aneri from "./Assets/teami/Aneri_Sonani.jpg";
 
 
 
@@ -64,18 +70,18 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=",
-  discord: "https://discord.gg/cvHPEK7U3v",
-  linkedin: "https://www.linkedin.com/company/duhacks/",
+  instagram: "https://www.instagram.com/innogeeks.kiet",
+  discord: "https://discord.gg/gjxmTjmxwR",
+  linkedin: "https://www.linkedin.com/company/innogeeks",
   twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
-  email: "mailto:contact@duhacks.tech",
-  mail: "contact@duhacks.tech"
+  email: "mailto:innogeeks@kiet.edu",
+  // mail: "contact@duhacks.tech",
 };
 
 const MIDDLE_SECTION = {
   TITLE: "What is InnoHacks?",
   LONG_DESCRIPTION:
-    "INNOHACKS is an annual hackathon organized by Innogeeks at the KIET Group of Institutions, Delhi-NCR, Ghaziabad. It aims at bringing talented young minds together to celebrate their technical passion and build exciting projects! This time we are organising InnoHacks in hybrid mode(both online & offline).",
+    "INNOHACKS is an annual hackathon organized by Innogeeks at the KIET Group of Institutions, Delhi-NCR, Ghaziabad. It aims at bringing talented young minds together to celebrate their technical passion and build exciting projects! Innohacks 2.0 is an offline hackathon.",
   LOGO_EFFECT: true,
   LOGO: "",
 };
@@ -271,21 +277,21 @@ const TeamInfo = [
       role: "Lead Organizer",
       github: "https://github.com/vasu-1",
       linkedin: "https://www.linkedin.com/in/vashishth-patel-312a52204/",
-      img: me
+      // img: me
     },
     {
       Name: "Ayush Rudani",
       role: "Organizer",
       github: "https://github.com/R-Ayush777",
       linkedin: "https://www.linkedin.com/in/ayush-rudani-7a3516204/",
-      img: ayush
+      // img: ayush
     },
     {
       Name: "Smit Padaliya",
       role: "Organizer",
       github: "https://github.com/Smit-05",
       linkedin: "https://www.linkedin.com/in/smit-padaliya-aa03291b8/",
-      img: smit
+      // img: smit
     }
   ],
   [
@@ -295,21 +301,21 @@ const TeamInfo = [
       role: "Manager",
       github: "https://github.com/zenishasavaliya",
       linkedin: "https://www.linkedin.com/in/zenishasavaliya/",
-      img: zenisha
+      // img: zenisha
     },
     {
       Name: "Parshwa Mehta",
       role: "Manager & Content",
       github: "https://github.com/PARSHWA0510",
       linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
-      img: parshwa
+      // img: parshwa
     },
     {
       Name: "Dharmesh Poriya",
       role: "Manager",
       github: "https://github.com/Dharmesh-Poriya07",
       linkedin: "https://www.linkedin.com/in/dharmesh-poriya/",
-      img: dharmesh
+      // img: dharmesh
     },
   ],
   [
@@ -319,21 +325,21 @@ const TeamInfo = [
       role: "Manager & Web",
       github: "https://github.com/AneriSonani09",
       linkedin: "https://www.linkedin.com/in/aneri-sonani-061b44204/",
-      img: aneri
+      // img: aneri
     },
     {
       Name: "Nirali Darji",
       role: "Design Lead",
       github: "#",
       linkedin: "https://www.linkedin.com/in/nirali-darji-1b766a209",
-      img: nirali
+      // img: nirali
     },
     {
       Name: "Dhruvi Sherathiya",
       role: "Outreach Lead",
       github: "https://github.com/DhruviSherathiya",
       linkedin: "https://www.linkedin.com/in/dhruvisherathiya",
-      img: dhruvi
+      // img: dhruvi
     },
   ],
   [
@@ -343,7 +349,7 @@ const TeamInfo = [
       role: "Content Lead",
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
-      img: manav
+      // img: manav
     }
   ]
 ];
@@ -356,21 +362,21 @@ const JudgesInfo = [
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: me
+      // img: me
     },
     {
       Name: "Moon",
       role: "Manager",
       github: "",
       linkedin: "",
-      img: Ryah
+      // img: Ryah
     },
     {
       Name: "Ryah Garcia",
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: Ryah
+      // img: Ryah
     }
   ],
   [
@@ -380,14 +386,14 @@ const JudgesInfo = [
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: Ryah
+      // img: Ryah
     },
     {
       Name: "Zoheb",
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: Ryah
+      // img: Ryah
     }
   ]
 ];
@@ -401,92 +407,122 @@ const sponsorLogos = [
 ];
 
 const titlesponsorLogos = [
-  [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" }], //Array 1
+  [{ src: hdfc, link: "https://www.hdfcbank.com/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
+];
+const educationsponsorLogos = [
+  [
+    {
+      src: "https://media.licdn.com/dms/image/C4D0BAQFVIfF1dvvexg/company-logo_200_200/0/1603646495680?e=2147483647&v=beta&t=l2zwpZcMzQeLfuuVpKjecmBPSQSmoeRFDfHNkzjGGR0",
+      link: "https://renaissance.programmingpathshala.com/crack-coding-interviews",
+    },
+  ], //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+];
+const certificatesponsorLogos = [
+  [
+    {
+      src: "https://app.givemycertificate.com/static/media/GMCLogSq.562e75e0.png",
+      link: "https://givemycertificate.com/",
+    },
+  ],
+];
+const platniumsponsorLogos = [
+  [
+    {
+      src: mysphere,
+      link: "https://www.mysphere.net/",
+    },
+    {
+      src: "https://www.channelinfoline.com/wp-content/uploads/2022/02/5ire-logo.jpg",
+      link: "https://www.5ire.org/",
+    },
+  ], //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
 
 const goldsponsorLogos = [
   // [  ], //Array 1
-  [{ src: filecoin, link: "https://filecoin.io/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
+  [
+    {
+      src: "https://appwarstechnologies.com/wp-content/uploads/2020/12/Logo-01.png",
+      link: "https://appwarstechnologies.com/",
+    },
+  ], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-
 ];
 
 const silversponsorLogos = [
-  [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }, { src: interviewbuddy, link: "https://interviewbuddy.in/" }], //Array 1
-  [{ src: alan, link: "https://alan.app/" }, { src: shivam, link: "#" }],
+  [{ src: xyz, link: "https://gen.xyz/" }, { src: axure, link: "https://www.axure.com/" }, { src: interviewbuddy, link: "https://interviewbuddy.in/" }, { src: bilasmiq, link: "https://balsamiq.com/" }, { src: wolfram, link: "https://www.wolfram.com/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
 ];
 
-const bronzeponsorLogos = [
-  [{ src: replit, link: "https://replit.com/" }, { src: certopus, link: "https://certopus.com/" }, { src: taskade, link: "https://www.taskade.com/" },], //Array 1
-  [{ src: koii, link: "https://www.koii.network/" }, { src: postman, link: "https://postman.com/" }, {src: prayosys, link: "https://prayosys.com/"}],
-  [{src: shivalika, link: "#"}, {src: cuvette, link: "https://www.cuvette.tech/"}],
+// const bronzeponsorLogos = [
+//   [{ src: , link: "https://replit.com/" }, { src: certopus, link: "https://certopus.com/" }, { src: taskade, link: "https://www.taskade.com/" },], //Array 1
+//   [{ src: koii, link: "https://www.koii.network/" }, { src: postman, link: "https://postman.com/" }, {src: prayosys, link: "https://prayosys.com/"}],
+//   [{src: shivalika, link: "#"}, {src: cuvette, link: "https://www.cuvette.tech/"}],
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
-];
+// ];
 
-const FoodLogos = [
-  [{src: maruti, link: "#"},{src: jay_bhavani, link: "#"},{src: jay_maharaj, link: "#"}],
-];
+// const FoodLogos = [
+//   [{src: maruti, link: "#"},{src: jay_bhavani, link: "#"},{src: jay_maharaj, link: "#"}],
+// ];
 
-const designlogo = [
-  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }, { src: shutterbugs, link: "https://www.instagram.com/shutterbugs_ddu/?hl=en" }]
-];
+// const designlogo = [
+//   [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }, { src: shutterbugs, link: "https://www.instagram.com/shutterbugs_ddu/?hl=en" }]
+// ];
 
 
 const frequentlyAskedQuestions = [
   [
     [
       {
-        label: "What is a hackathon?",
+        label: "CAN WE APPLY AS A TEAM?",
         content:
-          'A hackathon is a 36 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.'
+          "Yes! We believe that you’re stronger as a team than apart. You can form teams of 2-4 people. Most teams aim to have a mix of people with both design and development skills.",
       },
       {
-        label: "Who can attend?",
-        content: "DUHacks is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online."
+        label: "HOW MUCH WILL IT COST?",
+        content:
+          "There will be no registration fee. Registration will only be done through Unstop portal.",
       },
       {
-        label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general."
+        label: "WHAT CAN I BUILD?",
+        content:
+          "Possibly something that resonates with the theme of the event. It can be a website, software, an applet, or maybe even a piece of hardware. We would love to see anything.",
       },
       {
-        label: "How team formation works?",
-        content: "You can form a team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team."
-      }
+        label: "WHAT IF I DON'T KNOW HOW TO CODE?",
+        content:
+          "No worries, Interest in learning and working with technology is much more important than your current experience level.",
+      },
     ],
     [
       {
-        label: "How to register myself in the hackathon?",
-        content: "All you need is to register yourself on devfolio and join discord, we will guide you through everything there."
+        label: "WHAT DO I HAVE TO BRING?",
+        content:
+          "Bring your laptop, Chargers, Cables, Something Cool to show-off, pair of cloths, handtowels, toothbrush, extension board, etc. Anything that violates our Code of Conduct will lead to.",
       },
       {
-        label: "I have more questions?",
-        content: "Reach us directly at (contact@duhacks.tech) we would happy to help you."
-      }
-      ,
-      {
-        label: "Can I participate as a individual?",
-        content: "No, Because our goal is collaborative learning, we encourage everyone to participate as a team of at least two people."
-      }
-      ,
-      {
-        label: "Will there be swag?",
-        content: "Yes, Participants and winners will receive swags, certificates, promo codes, and much more!"
-      }
-    ]
+        label: "WHAT IF I HAVE MORE QUERIES?",
+        content:
+          "Feel free to reach us out on our Discord Server or drop us a mail at innohacks@kiet.edu.",
+      },
+    ],
   ],
-
 ];
 
 export {
@@ -499,12 +535,15 @@ export {
   titlesponsorLogos,
   goldsponsorLogos,
   silversponsorLogos,
-  bronzeponsorLogos,
+  // bronzeponsorLogos,
   TeamInfo,
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
   calenderStartingDate,
-  designlogo,
-  FoodLogos
+  educationsponsorLogos,
+  platniumsponsorLogos,
+  certificatesponsorLogos,
+  // designlogo,
+  // FoodLogos
 };

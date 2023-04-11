@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import hamLogo from "./ham.svg";
 import logoClose from "./ham-c.svg";
-import mainlogo from "./LOGO.png";
+import mainlogo from "./favicon InnoHacks.png";
 import styled from "styled-components";
 import "./styles.scss";
 
