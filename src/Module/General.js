@@ -47,16 +47,20 @@ import aneri from "./Assets/teami/Aneri_Sonani.jpg";
 
 
 const TOP_SECTION = {
-  TITLE: "DUHacks",
-  Typed_effect: ["16 July - 17 July", "36 hours of creation", "Win awesome prizes", "Events And Sessions"],
+  TITLE: "innoHacks",
+  Typed_effect: [
+    "23 April - 24 April",
+    "36 hours of creation",
+    "Win awesome prizes",
+    "Events And Sessions",
+  ],
   SHORT_DESCRIPTION:
-    "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 1000+ students.",
+    "Join us on 23rd and 24th of April 2023 for 36 hours of creation, innovation, & fun with over 2000+ students.",
   IMG_SRC: team,
-  DISCORD_LINK: "https://discord.gg/cvHPEK7U3v",
-  JUDGES_FORM_LINK:
-    "#Jugdes Form Link",
-  HACKERS_REGISTRATION_FORM_LINK:
-    "#Hackers Registration devfolio link"
+  DISCORD_LINK:
+    "https://unstop.com/hackathons/innohacks-20-hack-n-innovate-kiet-group-of-institutions-kiet-ghaziabad-643345",
+  JUDGES_FORM_LINK: "#Jugdes Form Link",
+  HACKERS_REGISTRATION_FORM_LINK: "#Hackers Registration devfolio link",
 };
 
 const SOCIALS = {
@@ -69,11 +73,11 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is DUHacks?",
+  TITLE: "What is InnoHacks?",
   LONG_DESCRIPTION:
-    "It is a hybrid mode hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150+ students offline in the college with proper arrangement and 850+ students online.",
+    "INNOHACKS is an annual hackathon organized by Innogeeks at the KIET Group of Institutions, Delhi-NCR, Ghaziabad. It aims at bringing talented young minds together to celebrate their technical passion and build exciting projects! This time we are organising InnoHacks in hybrid mode(both online & offline).",
   LOGO_EFFECT: true,
-  LOGO: ""
+  LOGO: "",
 };
 
 const FOOTER = {
@@ -96,63 +100,123 @@ const FOOTER = {
 };
 
 const calenderStartingDate = {
-  month: 7,
-  year: 2022
+  month: 4,
+  year: 2023
 }
 
 
 const schedule = [
   {
-    "day": "16-7-2022",
-    "events": [
+    day: "23-4-2023",
+    events: [
       {
-        "title": "Opening Ceremoney",
-        "timings": "8 AM - 9 AM",
-        "link": "https://google.com"
-      }
-    ]
+        title: "REGISTRATION & REPORTING OF TEAMS ⌚📝👥",
+        timings: "8 AM",
+        // link: "https://google.com",
+      },
+    ],
   },
   {
-    "day": "16-7-2022",
-    "events": [
+    day: "23-4-2023",
+    events: [
       {
-        "title": "Event",
-        "timings": "11 AM - 12 PM",
-        "link": "https://google.com"
-      }
-    ]
+        title: "OPENING CEREMONY 🎉💥👋🏼",
+        timings: "10 AM",
+        // link: "https://google.com",
+      },
+    ],
   },
   {
-    "day": "16-7-2022",
-    "events": [
+    day: "23-4-2023",
+    events: [
       {
-        "title": "Event",
-        "timings": "12 AM - 1 Pm",
-        "link": "https://google.com"
-      }
-    ]
+        title: "HACKING BEGINS 🖥️🤓🚀",
+        timings: "11 AM",
+        // link: "https://google.com",
+      },
+    ],
   },
   {
-    "day": "17-7-2022",
-    "events": [
+    day: "23-4-2023",
+    events: [
       {
-        "title": "Event",
-        "timings": "12 AM - 1 Pm",
-        "link": "https://google.com"
-      }
-    ]
+        title: " KEYNOTE SESSIONS 🎤🗣️🎙️",
+        timings: "2 PM",
+        // link: "https://google.com",
+      },
+    ],
   },
   {
-    "day": "17-7-2022",
-    "events": [
+    day: "23-4-2023",
+    events: [
       {
-        "title": "Closing Ceremoney",
-        "timings": "6 PM - 7 PM",
-        "link": "https://google.com"
-      }
-    ]
+        title: "TEA and SNACKS ☕🍪🍩",
+        timings: "4:30 PM",
+        // link: "https://google.com",
+      },
+    ],
   },
-]
+  {
+    day: "23-4-2023",
+    events: [
+      {
+        title: "MENTORING ROUND 👥💡📈",
+        timings: "6 PM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "23-4-2023",
+    events: [
+      {
+        title: "DINNER 🍽️🍴🍛",
+        timings: "8 PM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "24-4-2023",
+    events: [
+      {
+        title: "FUN ACTIVITIES 🎉🤹‍♀️🎭",
+        timings: "12:00 AM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "24-4-2023",
+    events: [
+      {
+        title: " JUDGING STARTS ⏱️🏆👀",
+        timings: "11:00 AM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "24-4-2023",
+    events: [
+      {
+        title: "GUEST TALK 🗣️🎙️🎬",
+        timings: "3:00 PM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "24-4-2023",
+    events: [
+      {
+        title: "CLOSING CEREMONY 🎊🏆🎖️",
+        timings: "4:00 PM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+];
 
 const Prizeinfo = [
   [
