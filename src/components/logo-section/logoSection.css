@@ -62,6 +62,7 @@ transition: 0.4s;
     display: inline-block;
     position: relative;
     font-family: 'Nunito', sans-serif;
+    /* margin-top: ; */
 }
 .LogoSectionAbout h1{
     font-weight: 700;
