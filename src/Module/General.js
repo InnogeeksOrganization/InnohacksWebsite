@@ -73,7 +73,7 @@ const SOCIALS = {
   instagram: "https://www.instagram.com/innogeeks.kiet",
   discord: "https://discord.gg/gjxmTjmxwR",
   linkedin: "https://www.linkedin.com/company/innogeeks",
-  twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
+  // twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
   email: "mailto:innogeeks@kiet.edu",
   // mail: "contact@duhacks.tech",
 };
