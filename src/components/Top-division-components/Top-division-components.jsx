@@ -55,14 +55,14 @@ function Myinfo() {
         </button>
 </a>
       */}
-      <div
+      {/* <div
         class="apply-button"
         data-hackathon-slug="duhacks"
         data-button-theme="light"
         // style="height: 44px; width: 312px"
-      ></div>
+      ></div> */}
       &nbsp;&nbsp;
-      <a href="https://discord.gg/cvHPEK7U3v" rel="noreferrer" target="_blank">
+      <a href="https://discord.gg/gjxmTjmxwR" rel="noreferrer" target="_blank">
         <button class="dis-button">
           <svg
             className="svgbtn"

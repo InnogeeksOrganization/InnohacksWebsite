@@ -50,9 +50,9 @@ function SponsorGroup(props) {
           key={key}
           justifyContent="center"
           alignItems="center"
-          sm={12}
-          lg={4}
-          md={6}
+          // sm={12}
+          // lg={4}
+          // md={6}
         >
           {" "}
           <Sponsor link={s.link} srcx={s.src} />{" "}
