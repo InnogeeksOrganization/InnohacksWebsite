@@ -20,7 +20,7 @@ function TimeLine() {
                 <span>23rd April 2022</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Registration of teams will begin from 8:00 AM
+                Registration begins at 8:00 AM
               </p>
             </section>
           </div>
@@ -32,7 +32,7 @@ function TimeLine() {
                 <span>23rd April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Opening ceremony will starts from 10:00 AM onwards
+                Opening ceremony starts at 10:00 AM
               </p>
             </section>
           </div>
@@ -44,7 +44,7 @@ function TimeLine() {
                 <span>23rd April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Hacking starts from 11:00 AM .
+                Hacking begins at 11:00 AM.
               </p>
             </section>
           </div>
@@ -56,7 +56,7 @@ function TimeLine() {
                 <span>23rd April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Keynote session will start from 2:00 PM onwards.
+                Keynote session starts at 2:00 PM onwards.
               </p>
             </section>
           </div>
@@ -68,7 +68,7 @@ function TimeLine() {
                 <span>23rd April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Tea and snacks will starts from 4:30 PM
+                Tea and snacks at 4:30 PM.
               </p>
             </section>
           </div>
@@ -80,7 +80,7 @@ function TimeLine() {
                 <span>23rd April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Mentoring Round will starts from 6:00 PM
+                Mentoring Round starts at 6:00 PM.
               </p>
             </section>
           </div>
@@ -92,7 +92,7 @@ function TimeLine() {
                 <span>23rd April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Dinner will begins from 8:00 PM
+                Dinner starts at 8:00 PM.
               </p>
             </section>
           </div>
@@ -104,7 +104,7 @@ function TimeLine() {
                 <span>24th April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Fun Activities will perform from 12:00 AM.
+                Fun Activities at 12:00 AM.
               </p>
             </section>
           </div>
@@ -116,7 +116,7 @@ function TimeLine() {
                 <span>24th April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Judging will starts from 11:00 AM
+                Judging will start at 11:00 AM
               </p>
             </section>
           </div>
@@ -128,7 +128,7 @@ function TimeLine() {
                 <span>24th April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Guest talk will starts from 3:00 PM
+                Guest talk at 3:00 PM.
               </p>
             </section>
           </div>
@@ -140,7 +140,7 @@ function TimeLine() {
                 <span>24th April 2023</span>
               </div>
               <p className="timeline_text" style={{ fontSize: "14px" }}>
-                Hackathon closing ceremony will starts from 4:00 PM
+                Closing ceremony starts at 4:00 PM.
               </p>
             </section>
           </div>
