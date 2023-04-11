@@ -110,49 +110,109 @@ const schedule = [
     day: "23-4-2023",
     events: [
       {
-        title: "REGISTRATION & REPORTING OF TEAMS",
+        title: "REGISTRATION & REPORTING OF TEAMS ⌚📝👥",
         timings: "8 AM",
         // link: "https://google.com",
       },
     ],
   },
   {
-    day: "16-7-2022",
+    day: "23-4-2023",
     events: [
       {
-        title: "Event",
-        timings: "11 AM - 12 PM",
-        link: "https://google.com",
+        title: "OPENING CEREMONY 🎉💥👋🏼",
+        timings: "10 AM",
+        // link: "https://google.com",
       },
     ],
   },
   {
-    day: "16-7-2022",
+    day: "23-4-2023",
     events: [
       {
-        title: "Event",
-        timings: "12 AM - 1 Pm",
-        link: "https://google.com",
+        title: "HACKING BEGINS 🖥️🤓🚀",
+        timings: "11 AM",
+        // link: "https://google.com",
       },
     ],
   },
   {
-    day: "17-7-2022",
+    day: "23-4-2023",
     events: [
       {
-        title: "Event",
-        timings: "12 AM - 1 Pm",
-        link: "https://google.com",
+        title: " KEYNOTE SESSIONS 🎤🗣️🎙️",
+        timings: "2 PM",
+        // link: "https://google.com",
       },
     ],
   },
   {
-    day: "17-7-2022",
+    day: "23-4-2023",
     events: [
       {
-        title: "Closing Ceremoney",
-        timings: "6 PM - 7 PM",
-        link: "https://google.com",
+        title: "TEA and SNACKS ☕🍪🍩",
+        timings: "4:30 PM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "23-4-2023",
+    events: [
+      {
+        title: "MENTORING ROUND 👥💡📈",
+        timings: "6 PM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "23-4-2023",
+    events: [
+      {
+        title: "DINNER 🍽️🍴🍛",
+        timings: "8 PM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "24-4-2023",
+    events: [
+      {
+        title: "FUN ACTIVITIES 🎉🤹‍♀️🎭",
+        timings: "12:00 AM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "24-4-2023",
+    events: [
+      {
+        title: " JUDGING STARTS ⏱️🏆👀",
+        timings: "11:00 AM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "24-4-2023",
+    events: [
+      {
+        title: "GUEST TALK 🗣️🎙️🎬",
+        timings: "3:00 PM",
+        // link: "https://google.com",
+      },
+    ],
+  },
+  {
+    day: "24-4-2023",
+    events: [
+      {
+        title: "CLOSING CEREMONY 🎊🏆🎖️",
+        timings: "4:00 PM",
+        // link: "https://google.com",
       },
     ],
   },

@@ -196,6 +196,21 @@ export default function HomePage(props) {
         </Row>
         <div class="row1-container">
           <div class="box red">
+            <h2>Best Idea</h2>
+            {/* <img
+              class="imgright"
+              src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png"
+              alt=""
+            /> */}
+            <h4>
+              <b>Prize</b>: Seed funding of ₹ 10,00,000 <br />
+              {/* Swags & Promo Codes */}
+              <br />
+              <br />
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
+            </h4>
+          </div>
+          <div class="box red">
             <h2>Overall First</h2>
             <img
               class="imgright"
@@ -203,11 +218,11 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 7000 <br />
+              <b>Prize</b>: ₹ 50,000 <br />
               Swags & Promo Codes
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
             </h4>
           </div>
 
@@ -219,13 +234,10 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 3000 <br />
+              <b>Prize</b>: ₹ 25,000 <br />
               Swags & Promo Codes
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes" zz>
-                Load More
-              </a>
             </h4>
           </div>
 
@@ -237,11 +249,11 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 2000 <br />
+              <b>Prize</b>: ₹ 15,000 <br />
               Swags & Promo Codes
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
             </h4>
           </div>
         </div>
@@ -261,27 +273,72 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 1500 <br />
+              <b>Prize</b>: ₹ 5,000 <br />
               Swags & Promo Codes
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
             </h4>
           </div>
 
           <div class="box color1">
-            <h2>Best DDU Team</h2>
+            <h2>Best Use of XR</h2>
             <img
               class="imgright"
               src="https://img.icons8.com/emoji/96/000000/sports-medal-emoji.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 1500 <br />
+              <b>Prize</b>: ₹ 5,000 <br />
               Swags & Promo Codes
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
+            </h4>
+          </div>
+          <div class="box color1">
+            <h2>Best Use of AIoT</h2>
+            <img
+              class="imgright"
+              src="https://img.icons8.com/emoji/96/000000/sports-medal-emoji.png"
+              alt=""
+            />
+            <h4>
+              <b>Prize</b>: ₹ 5,000 <br />
+              Swags & Promo Codes
+              <br />
+              <br />
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
+            </h4>
+          </div>
+          <div class="box color1">
+            <h2>Best Use of Blockchain</h2>
+            <img
+              class="imgright"
+              src="https://img.icons8.com/emoji/96/000000/sports-medal-emoji.png"
+              alt=""
+            />
+            <h4>
+              <b>Prize</b>: ₹ 5,000 <br />
+              Swags & Promo Codes
+              <br />
+              <br />
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
+            </h4>
+          </div>
+          <div class="box color1">
+            <h2>Socially most impactful Idea</h2>
+            <img
+              class="imgright"
+              src="https://img.icons8.com/emoji/96/000000/sports-medal-emoji.png"
+              alt=""
+            />
+            <h4>
+              <b>Prize</b>: ₹ 5,000 <br />
+              Swags & Promo Codes
+              <br />
+              <br />
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
             </h4>
           </div>
 
@@ -298,7 +355,7 @@ export default function HomePage(props) {
               Promo Codes
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              {/* <a href="https://duhacks.devfolio.co/#prizes">Load More</a> */}
             </h4>
           </div>
         </div>
