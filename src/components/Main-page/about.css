@@ -213,6 +213,10 @@ align-items: center;
   height: 50px;
 }
 
+.sponsorImg{
+  width: 50rem
+}
+
 .box {
 
   -webkit-animation: mover 1s infinite alternate;

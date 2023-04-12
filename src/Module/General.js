@@ -53,15 +53,15 @@ import xyz from "./Assets/sponsorsLogos/xyz logo.png"
 
 
 const TOP_SECTION = {
-  TITLE: "innoHacks",
+  TITLE: "InnoHacks2.0",
   Typed_effect: [
     "23 April - 24 April",
-    "36 hours of creation",
+    "24 hours of creation",
     "Win awesome prizes",
     "Events And Sessions",
   ],
   SHORT_DESCRIPTION:
-    "Join us on 23rd and 24th of April 2023 for 36 hours of creation, innovation, & fun with over 2000+ students.",
+    "Join us on 23rd and 24th of April 2023 for 24 hours of creation, innovation, & fun with over 2000+ students.",
   IMG_SRC: team,
   DISCORD_LINK:
     "https://unstop.com/hackathons/innohacks-20-hack-n-innovate-kiet-group-of-institutions-kiet-ghaziabad-643345",
@@ -520,6 +520,16 @@ const frequentlyAskedQuestions = [
         label: "WHAT IF I HAVE MORE QUERIES?",
         content:
           "Feel free to reach us out on our Discord Server or drop us a mail at innohacks@kiet.edu.",
+      },
+      {
+        label: "WHO CAN ATTEND?",
+        content:
+          "InnoHacks is open to all undergraduate students from all colleges/universities.",
+      },
+      {
+        label: "HOW TO REGISTER FOR THE HACKATHON?",
+        content:
+          "All you need is to register yourself on unstop and join discord, we will guide you through everything there.",
       },
     ],
   ],

@@ -19,6 +19,16 @@ import pattern from "./pattern4.png";
 // import Media from "../media/media.jsx";
 import ThemeType from "../Themes/theme.jsx";
 import TimeLine from "../Timeline/Timeline.jsx";
+import wolfram from "./sponsorsLogos/wolfram.jpg";
+import interviewbuddy from "./sponsorsLogos/ib.png";
+import axure from "./sponsorsLogos/axure logo.png";
+import bilasmiq from "./sponsorsLogos/bilasmiq logo.png";
+import hdfc from "./sponsorsLogos/hdfc logo.jpg";
+import mysphere from "./sponsorsLogos/logo_mysphere logo.png";
+import xyz from "./sponsorsLogos/xyz logo.png";
+import fire from "./sponsorsLogos/Logo blue.png"
+import ppa from "./sponsorsLogos/ppa.png";
+import certificate from "./sponsorsLogos/certificate.png"
 // import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
 // import sphere from "https://www.medianews4u.com/wp-content/uploads/2022/04/5ire.jpg";
 // import alan from "../../Module/Assets/sponsorsLogos/alan.png";
@@ -48,8 +58,8 @@ function SponsorGroup(props) {
       {props.map((s, key) => (
         <Col
           key={key}
-          justifyContent="center"
-          alignItems="center"
+          // justifyContent="center"
+          // alignItems="center"
           // sm={12}
           // lg={4}
           // md={6}
@@ -495,7 +505,112 @@ export default function HomePage(props) {
 
         {/* ********Sponsors here ***** */}
 
-        <Row className="sponsorSection" id="sponsors">
+        <Row className="prizesection" id="sponsors">
+          <SponsorsHead />
+        </Row>
+        <PrizeHeading type="Title Sponsor" />
+        <br />
+        <br />
+        <div class="row1-container">
+          <img class="sponsorImg" src={hdfc} alt="" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <PrizeHeading type="Eduaction Partner" />
+        <br />
+        <br />
+        <div class="row1-container">
+          <img class="sponsorImg" style={{ width: "35rem" }} src={ppa} alt="" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <PrizeHeading type="Certificate Partner" />
+        <br />
+        <br />
+        <div class="row1-container">
+          <img
+            class="sponsorImg"
+            style={{ width: "35rem" }}
+            src={certificate}
+            alt=""
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <PrizeHeading type="Platnium Sponsor" />
+        <br />
+        <br />
+        <div class="row1-container">
+          <img
+            class="sponsorImg"
+            style={{ width: "20rem", marginRight: "5rem" }}
+            src={mysphere}
+            alt=""
+          />
+          <img
+            class="sponsorImg"
+            style={{ width: "20rem" }}
+            src={fire}
+            alt=""
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <PrizeHeading type="Gold Sponsor" />
+        <br />
+        <br />
+        <div class="row1-container">
+          <img
+            class="sponsorImg"
+            style={{ width: "30rem" }}
+            src="https://appwarstechnologies.com/wp-content/uploads/2020/12/Logo-01.png"
+            alt=""
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <PrizeHeading type="Silver Sponsor" />
+        <br />
+        <br />
+        <div class="row1-container">
+          <img class="sponsorImg" style={{ width: "20rem" }} src={xyz} alt="" />
+          <img
+            class="sponsorImg"
+            style={{ width: "20rem" }}
+            src={axure}
+            alt=""
+          />
+          <img
+            class="sponsorImg"
+            style={{ width: "20rem" }}
+            src={interviewbuddy}
+            alt=""
+          />
+          <img
+            class="sponsorImg"
+            style={{ width: "20rem" }}
+            src={bilasmiq}
+            alt=""
+          />
+          <img
+            class="sponsorImg"
+            style={{ width: "20rem" }}
+            src={wolfram}
+            alt=""
+          />
+        </div>
+
+        {/* <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <h1 className="">Title Sponsors</h1>
           <br />
@@ -521,16 +636,16 @@ export default function HomePage(props) {
           <br />
           {silversponsorLogos.map(SponsorGroup)}
           <br />
-          <br />
-          {/* <h1 className="">Bronze Sponsors</h1>
+          <br /> */}
+        {/* <h1 className="">Bronze Sponsors</h1>
           <br />
           {bronzeponsorLogos.map(SponsorGroup)}
           <br />
           <br /> */}
-          {/* <SponsorUS /> */}
-          {/* <br />
+        {/* <SponsorUS /> */}
+        {/* <br />
           <br /> */}
-          {/* <h1 className="">Design & Media Partners</h1>
+        {/* <h1 className="">Design & Media Partners</h1>
           <br />
           {designlogo.map(SponsorGroup)}
           <br />
@@ -538,7 +653,7 @@ export default function HomePage(props) {
           <h1 className="">Food Sponsors</h1>
           <br />
           {FoodLogos.map(SponsorGroup)} */}
-        </Row>
+        {/* </Row> */}
         {/* ********Sponsors ending here ***** */}
 
         {/* ********Team here ***** */}
