@@ -9,7 +9,7 @@ import "./footer.scss";
 // import TermsOfUse from "./Terms of use.pdf";
 // import Twitter from "./icons8-twitter.svg";
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
-import logo from "../navbar/favicon InnoHacks.png";
+import logo from "../navbar/Innohacks 2.0 Logo.png";
 // import dsc from "./dsc.png";
 import innogeeks from "./innogeeks.png"
 // import cross from "./cross.svg";
@@ -54,8 +54,8 @@ export default function Footer() {
     <div class="content">
       <div class="top">
         <div class="logo-details">
-          <img src={logo} className="imgfooter" />
-          <span class="logo_name">&nbsp;InnoHacks</span>
+          <img src={logo} className="imgfooter" style={{width: "30rem"}} />
+          {/* <span class="logo_name">&nbsp;InnoHacks</span> */}
         </div>
         <div class="media-icons">
           <a target="_blank" href={SOCIALS.discord}><i class="iconlink fab fa-discord"></i></a>
@@ -65,12 +65,11 @@ export default function Footer() {
           <a target="_blank"href={SOCIALS.email}><i class="iconlink fa-solid fa-envelope"></i></a>
         </div>
       </div>
-      <div class="link-boxes">
+      {/* <div class="link-boxes">
         <ul class="box1 input-box1">
-          {/*<li class="link_name">Subscribe</li>*/}
           <img src={innogeeks} className="imgfooterdsc" />
         </ul>
-      </div>
+      </div> */}
     </div>
     <div class="bottom-details">
       <div class="bottom_text">

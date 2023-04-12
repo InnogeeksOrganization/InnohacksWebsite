@@ -54,7 +54,7 @@ function ThemeType(props) {
                 <img src="./images/health_care1.jpg" />
                 <br />
                 <br />
-                <div class="role_name">Smart Security: Emergency Response</div>
+                <div class="role_name">Smart Security</div>
 
                 {/*<div class="film">Develop Solution to help Society Cope with the Drastic impact. The Healthcare track strives to develop splitting initiatives that address a variety of health-related issues.</div>*/}
               </div>

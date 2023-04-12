@@ -117,10 +117,15 @@ const NAVBAR = () => {
                 </Link>
               </li>
               <li className="liw list--general">
+                <Link to={`#timeline`}>
+                  <span className="links">Timeline </span>{" "}
+                </Link>
+              </li>
+              {/* <li className="liw list--general">
                 <Link to={`#teams`}>
                   <span className="links">Team </span>{" "}
                 </Link>
-              </li>
+              </li> */}
              <li className="liw list--general">
                 <Link to={`#faqs`}>
                   <span className="links">FAQ </span>{" "}

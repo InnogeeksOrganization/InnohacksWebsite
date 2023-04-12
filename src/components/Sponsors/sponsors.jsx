@@ -16,7 +16,7 @@ function Sponsor(props) {
   return (
     <div className="Sponsor">
     {/*<h3>coming Soon</h3>*/}
-     <a href={props.link} rel="noreferrer" target="_blank"> <img src={props.srcx} alt="DUHacks"></img></a>
+     <a href={props.link} rel="noreferrer" target="_blank"> <img src={props.srcx} alt="InnoHacks"></img></a>
     </div>
   );
 }
