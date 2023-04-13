@@ -518,7 +518,7 @@ export default function HomePage(props) {
         <br />
         <br />
         <br />
-        <PrizeHeading type="Eduaction Partner" />
+        <PrizeHeading type="Education Partner" />
         <br />
         <br />
         <div class="row1-container">
@@ -543,7 +543,7 @@ export default function HomePage(props) {
         <br />
         <br />
         <br />
-        <PrizeHeading type="Platnium Sponsor" />
+        <PrizeHeading type="Platinum Sponsor" />
         <br />
         <br />
         <div class="row1-container">
