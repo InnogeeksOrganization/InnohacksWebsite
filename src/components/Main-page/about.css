@@ -214,7 +214,13 @@ align-items: center;
 }
 
 .sponsorImg{
-  width: 50rem
+  width: 30rem;
+}
+
+@media screen and (min-width: 600px){
+  .sponsorImg{
+    width: 50%;
+  }
 }
 
 .box {
