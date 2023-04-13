@@ -19,3 +19,4 @@ jobs:
           script: |
             cd innohacks
             git pull
+            pm2 restart prod
