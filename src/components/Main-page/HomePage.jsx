@@ -506,7 +506,7 @@ export default function HomePage(props) {
         {/* ********Sponsors here ***** */}
 
         <Row className="prizesection" id="sponsors">
-          <SponsorsHead />
+          <SponsorsHead heading="Sponsors & Partners" />
         </Row>
         <PrizeHeading type="Title Sponsor" />
         <br />
@@ -675,6 +675,54 @@ export default function HomePage(props) {
 
         {/* ********Team ending here ***** */}
         <br />
+
+        <Row className="prizesection" id="sponsors">
+          <SponsorsHead heading="Mini Events" />
+        </Row>
+        <center>
+          <div class="containertrack">
+            <div class="cardtrack">
+              <div class="boxtrack">
+                <div class="contenttrack">
+                  {/*<h1>Polygon</h1>*/}
+                  <img
+                    style={{ width: "80%", marginBottom: "20%" }}
+                    src={mysphere}
+                  />
+                  <br />
+                  <br />
+                  <b>
+                    Have the chance to win exciting prizes such as Amazon
+                    vouchers worth 2k and Innohacks Swag Kits.
+                  </b>
+                  {/* <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">
+                    Read More
+                  </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div class="cardtrack">
+              <div class="boxtrack">
+                <div class="contenttrack">
+                  {/*<h1>Polygon</h1>*/}
+                  <img
+                    // className="imgtrack"
+                    style={{ width: "80%", marginBottom: "20%" }}
+                    src={ppa}
+                  />
+                  <br />
+                  <br />
+                  <b>Stay Tuned For Updates.....</b>
+                  {/* <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">
+                    Read More
+                  </a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </center>
+
         <h1 id="faqs">FAQs</h1>
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs">
