@@ -3,10 +3,10 @@ import "./sponsors.scss";
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
 // import {SOCIALS} from "../../Module/General";
 
-function SponsorsHead() {
+function SponsorsHead({heading}) {
   return (
     <div>
-      <h1 className="shead">Sponsors & Partners</h1>
+      <h1 className="shead">{ heading }</h1>
       {/* <h2>Meet Our Supporters</h2> */}
     </div>
   );
